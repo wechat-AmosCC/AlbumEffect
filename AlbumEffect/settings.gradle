@@ -1,1 +1,1 @@
-include ':app', ':amoslib_albumeffect'
+include ':app', ':amoslib_albumeffect', ':amosLib_albumeffect'

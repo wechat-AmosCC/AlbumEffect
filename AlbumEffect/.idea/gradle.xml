@@ -8,7 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/amoslib_albumeffect" />
+            <option value="$PROJECT_DIR$/amosLib_albumeffect" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
