@@ -40,6 +40,7 @@ public class ImageZoom {
      * @param context
      * @param url     当前图片url
      * @param list    图片URL
+     * @param isFullScreen  是否全屏显示
      */
     public static void show(Context context, String url, List<String> list,boolean isFullScreen) {
         try {
@@ -60,6 +61,7 @@ public class ImageZoom {
      * 跳转到大图预览，只有一张图
      * @param context
      * @param url
+     * @param isFullScreen  是否全屏显示
      */
     public static void show(Context context, String url,boolean isFullScreen) {
         try {
@@ -86,6 +88,7 @@ public class ImageZoom {
      * @param context
      * @param url
      * @param type
+     * @param isFullScreen  是否全屏显示
      */
     public static void show(Context context, String url, int type,boolean isFullScreen) {
         try {
