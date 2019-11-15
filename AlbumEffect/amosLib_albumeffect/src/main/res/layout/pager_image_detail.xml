@@ -3,11 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.liji.imagezoom.widget.HackyViewPager
-        android:id="@+id/pager"
+
+    <amos.codes.com.amoslib_albumeffect.widget.HackyViewPager
+        android:id="@+id/pagerAmos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#000000" />
+        android:background="#000000" >
+
+    </amos.codes.com.amoslib_albumeffect.widget.HackyViewPager>
 
     <TextView
         android:id="@+id/indicator"

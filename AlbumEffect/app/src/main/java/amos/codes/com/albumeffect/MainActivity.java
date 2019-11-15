@@ -8,6 +8,8 @@ import android.widget.Button;
 import java.util.ArrayList;
 import java.util.List;
 
+import amos.codes.com.amoslib_albumeffect.util.ImageZoom;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -30,7 +32,14 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < urls.length; i++) {
             list.add(urls[i]);
         }
-
+        Button btn = (Button) findViewById(R.id.btn);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //                ImageZoom.show(MainActivity.this, urls[1], list);
+                ImageZoom.show(MainActivity.this, 0, list,true);
+            }
+        });
 
     }
 }
