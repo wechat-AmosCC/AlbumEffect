@@ -37,6 +37,7 @@ public class ImagePagerActivity extends FragmentActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         isFullScreen=getIntent().getBooleanExtra(EXTRA_IS_FULL_SCREEN,false);
+        /*
         if(isFullScreen)
         {
             //隐藏虚拟按键，并且全屏
@@ -49,7 +50,7 @@ public class ImagePagerActivity extends FragmentActivity {
                         | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY | View.SYSTEM_UI_FLAG_FULLSCREEN;
                 gameView.setSystemUiVisibility(uiOptions);
             }
-        }
+        }*/
         setContentView(R.layout.pager_image_detail);
         DisplayImageOptions defaultOptions = new DisplayImageOptions
                 .Builder()

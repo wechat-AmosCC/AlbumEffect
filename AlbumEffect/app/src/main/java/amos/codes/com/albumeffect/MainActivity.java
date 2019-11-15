@@ -31,13 +31,6 @@ public class MainActivity extends AppCompatActivity {
             list.add(urls[i]);
         }
 
-        Button btn = (Button) findViewById(R.id.btn);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //                ImageZoom.show(MainActivity.this, urls[1], list);
-                ImageZoom.show(MainActivity.this, 0, list);
-            }
-        });
+
     }
 }
