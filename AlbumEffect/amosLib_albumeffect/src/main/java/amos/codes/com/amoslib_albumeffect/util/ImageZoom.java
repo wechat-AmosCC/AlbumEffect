@@ -83,6 +83,7 @@ public class ImageZoom {
         }
     }
 
+    ///code by amos
     /**
      * 跳转到大图预览，只有一张图
      * @param context
