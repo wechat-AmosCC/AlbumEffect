@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AlbumEffect.iml" filepath="$PROJECT_DIR$/AlbumEffect.iml" />
-      <module fileurl="file://$PROJECT_DIR$/amoslib_albumeffect/amoslib_albumeffect.iml" filepath="$PROJECT_DIR$/amoslib_albumeffect/amoslib_albumeffect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/amosLib_albumeffect/amosLib_albumeffect.iml" filepath="$PROJECT_DIR$/amosLib_albumeffect/amosLib_albumeffect.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
